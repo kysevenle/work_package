@@ -1,0 +1,1 @@
+import work_package.scripts.update_txts
