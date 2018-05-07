@@ -23,3 +23,6 @@ def get_services():
 
 def get_clients():
     return fetch(work_package.api_creds.read_key, 'clients')
+
+def get_clients_services(client_id):
+    return fetch(work_package.api_creds.read_key, 'clients/' + client_id + '/services')
